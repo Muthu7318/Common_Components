@@ -29,7 +29,7 @@ function Button({
       "text-red-500": outline && danger,
     }
   );
-  console.log(rest);
+
   return (
     <button className={classes} {...rest}>
       {children}

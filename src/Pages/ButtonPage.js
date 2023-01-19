@@ -11,12 +11,8 @@ function ButtonPage() {
           rounded
           outline
           classNm="mb-5"
-          onClick={() => {
-            console.log("tesing");
-          }}
-          onMouseOver={() => {
-            console.log("mouse");
-          }}
+          onClick={() => {}}
+          onMouseOver={() => {}}
         >
           <GoJersey></GoJersey>
           button 1

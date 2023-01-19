@@ -2,8 +2,13 @@ import "./index.css";
 import React from "react";
 import ReactDom from "react-dom/client";
 import App from "./App";
+import { NavigationProvider } from "./Context/NavigationContext";
 
 const el = document.getElementById("root");
 const root = ReactDom.createRoot(el);
 
-root.render(<App></App>);
+root.render(
+  <NavigationProvider>
+    <App></App>
+  </NavigationProvider>
+);
