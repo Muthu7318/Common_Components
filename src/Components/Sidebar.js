@@ -14,6 +14,18 @@ function Sidebar(props) {
       label: "Buttons",
       path: "/buttons",
     },
+    {
+      label: "Modal",
+      path: "/modal",
+    },
+    {
+      label: "Table",
+      path: "/table",
+    },
+    {
+      label: "Count",
+      path: "/count",
+    },
   ];
 
   const renderedLinks = links.map((link) => {
@@ -21,8 +33,8 @@ function Sidebar(props) {
       <Link
         key={link.label}
         to={link.path}
-        classNm="mb-3"
-        activeClassNm="font-bold border-l-4 border-blue-500 pl-2"
+        classnm="mb-3"
+        activeclassnm="font-bold border-l-4 border-blue-500 pl-2"
       >
         {link.label}
       </Link>

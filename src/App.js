@@ -3,6 +3,9 @@ import AccordionPage from "./Pages/AccordionPage";
 import DropdownPage from "./Pages/DropdownPage";
 import Sidebar from "./Components/Sidebar";
 import ButtonPage from "./Pages/ButtonPage";
+import ModalPage from "./Pages/ModalPage";
+import TablePage from "./Pages/TablePage";
+import CounterPage from "./Pages/CounterPage";
 
 function App() {
   return (
@@ -17,6 +20,15 @@ function App() {
         </Route>
         <Route path="/buttons">
           <ButtonPage></ButtonPage>
+        </Route>
+        <Route path="/modal">
+          <ModalPage></ModalPage>
+        </Route>
+        <Route path="/table">
+          <TablePage></TablePage>
+        </Route>
+        <Route path="/count">
+          <CounterPage initialCount={0}></CounterPage>
         </Route>
       </div>
     </div>

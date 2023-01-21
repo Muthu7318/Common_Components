@@ -12,7 +12,7 @@ function Button({
   ...rest
 }) {
   const classes = classNames(
-    rest.classNm,
+    rest.classnm,
     "px-3 py-1.5 border flex items-center",
     {
       "border-blue-500 bg-blue-500 text-white": primary,

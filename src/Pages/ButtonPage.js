@@ -10,7 +10,7 @@ function ButtonPage() {
           success
           rounded
           outline
-          classNm="mb-5"
+          classnm="mb-5"
           onClick={() => {}}
           onMouseOver={() => {}}
         >
