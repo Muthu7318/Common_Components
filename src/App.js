@@ -6,6 +6,7 @@ import ButtonPage from "./Pages/ButtonPage";
 import ModalPage from "./Pages/ModalPage";
 import TablePage from "./Pages/TablePage";
 import CounterPage from "./Pages/CounterPage";
+import CounterPageReducer from "./Pages/CounterPage_reducer";
 
 function App() {
   return (
@@ -29,6 +30,9 @@ function App() {
         </Route>
         <Route path="/count">
           <CounterPage initialCount={0}></CounterPage>
+        </Route>
+        <Route path="/countReducer">
+          <CounterPageReducer initialCount={0}></CounterPageReducer>
         </Route>
       </div>
     </div>

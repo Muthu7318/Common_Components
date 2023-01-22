@@ -26,6 +26,10 @@ function Sidebar(props) {
       label: "Count",
       path: "/count",
     },
+    {
+      label: "CountReducer",
+      path: "/countReducer",
+    },
   ];
 
   const renderedLinks = links.map((link) => {
